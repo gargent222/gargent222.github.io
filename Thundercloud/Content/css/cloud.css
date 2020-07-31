@@ -1,0 +1,172 @@
+@CHARSET "UTF-8";
+.body {
+	margin: 0;
+	padding-top: 0px;
+	padding-bottom: 0px;
+
+}	
+.bg {
+   position: fixed;
+  width: 100%;
+  height: 300px; /*same height as jumbotron */
+  top:0;
+  left:0;
+  z-index: -1;
+}
+.containerpad {
+margin: 0px 0px;
+}
+
+.jumbotron {
+  margin-bottom: 0px;
+  height: 300px;
+  color: white;
+  background:transparent;
+}
+
+.bgSizeCover {
+	height: 225px;
+	background-image: url("images/stormsky.jpg");
+	background-size: cover;
+}
+
+.well{
+	color:#faf3ef;
+	background:#4f5050;
+}
+
+.btn-primary {
+	color: #fff;
+  background-color: #255ae2;
+  border-color: #1d61d7;
+}
+
+.white-container {
+	color: inherit;
+	background-color: #faf3ef;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+
+.white-container-inner {
+	padding-top: 30px;
+	padding-bottom: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+
+.featurette-divider {
+	margin: 0; /* <hr> between each */
+}
+
+.featurette {
+	padding-top: 60px;
+	margin: 5px 20px 20px;
+	overflow: hidden; /* Clear floats */
+}
+
+.featurette2 {
+	background: url("images/retrolight.png") repeat 0 0;
+	padding-top: 120px;
+	overflow: hidden; /* Clear floats */
+}
+
+.featurette-image {
+	margin-top: −120px; /* Vertically center image with the text */
+}
+
+.featurette-heading {
+	font-size: 50px;
+	font-weight: 300;
+	line-height: 1;
+	letter-spacing: -1px;
+}
+
+.featurette-image.pull-left {
+	margin-right: 20px;
+}
+
+.featurette-image.pull-right {
+	margin-left: 20px;
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	/* Negative indent footer by it's height */
+	margin: 0 auto -120px;
+}
+
+
+#footer li
+{
+display: inline;
+font-size: 14px;
+list-style-type: none;
+padding-right: 20px;
+padding-left: 20px;
+
+}
+
+/* Set the fixed height of the footer here */
+#footer {
+	height: 150px;
+}
+
+/* Set push height to avoid footer overlap with content */
+#push {
+	height: 20px;
+}
+
+/* Lastly, apply responsive CSS fixes as necessary */
+@media ( max-width : 767px) {
+	#footer {
+		margin-left: -20px;
+		margin-right: -20px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
+
+#footer {
+	background-color: #4f5050;
+	color: #ffffff;
+	margin-top: 0px;
+	padding: 30px 0;
+	text-align: center;
+	background-color: #1b1b1b;
+	background-image: -moz-linear-gradient(top, #222, #111);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#222),
+		to(#111));
+	background-image: -webkit-linear-gradient(top, #222, #111);
+	background-image: -o-linear-gradient(top, #222, #111);
+	background-image: linear-gradient(to bottom, #222, #111);
+	background-repeat: repeat-x;
+	border-color: #252525;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff222222',
+		endColorstr='#ff111111', GradientType=0);
+}
+
+.footer-links {
+	margin: 10px 0;
+}
+
+.footer-links li:first-child {
+	padding-left: 0;
+}
+
+.footer-links li {
+	display: inline;
+}
+
+.footer-links a {
+	color: #ffffff;
+}
+
+.footer-links a:hover {
+	color: #ffffff;
+}
